@@ -60,40 +60,37 @@
     </div>
   </nav>
 
-  <!--  HEADER -->
+  <!-- HEADER -->
   <header id="main-header" class="py-2 bg-primary text-white">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
           <h1>
-            <i class="fas fa-cog"></i> Dashboard
-          </h1>
+            <i class="fas fa-cog"></i> Dashboard</h1>
         </div>
       </div>
     </div>
   </header>
 
-  <!--  ACTIONS -->
+  <!-- ACTIONS -->
   <section id="actions" class="py-4 mb-4 bg-light">
     <div class="container">
       <div class="row">
-        <col-md-3>
+        <div class="col-md-3">
           <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#addPostModal">
             <i class="fas fa-plus"></i> Add Post
           </a>
-        </col-md-3>
-
-        <col-md-3>
+        </div>
+        <div class="col-md-3">
           <a href="#" class="btn btn-success btn-block" data-toggle="modal" data-target="#addCategoryModal">
             <i class="fas fa-plus"></i> Add Category
           </a>
-        </col-md-3>
-
-        <col-md-3>
+        </div>
+        <div class="col-md-3">
           <a href="#" class="btn btn-warning btn-block" data-toggle="modal" data-target="#addUserModal">
             <i class="fas fa-plus"></i> Add User
           </a>
-        </col-md-3>
+        </div>
       </div>
     </div>
   </section>
@@ -107,7 +104,6 @@
             <div class="card-header">
               <h4>Latest Posts</h4>
             </div>
-
             <table class="table table-striped">
               <thead class="thead-dark">
                 <tr>
@@ -199,6 +195,7 @@
               <a href="posts.html" class="btn btn-outline-light btn-sm">View</a>
             </div>
           </div>
+
           <div class="card text-center bg-success text-white mb-3">
             <div class="card-body">
               <h3>Categories</h3>
@@ -208,6 +205,7 @@
               <a href="categories.html" class="btn btn-outline-light btn-sm">View</a>
             </div>
           </div>
+
           <div class="card text-center bg-warning text-white mb-3">
             <div class="card-body">
               <h3>Users</h3>
@@ -228,7 +226,8 @@
       <div class="row">
         <div class="col">
           <p class="lead text-center">
-            Copyright &copy; <span id="year"></span>
+            Copyright &copy;
+            <span id="year"></span>
             Blogen
           </p>
         </div>
@@ -236,9 +235,10 @@
     </div>
   </footer>
 
-  <!--  MODALS -->
 
-  <!--  ADD POST MODAL -->
+  <!-- MODALS -->
+
+  <!-- ADD POST MODAL -->
   <div class="modal fade" id="addPostModal">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -248,14 +248,12 @@
             <span>&times;</span>
           </button>
         </div>
-
         <div class="modal-body">
           <form>
             <div class="form-group">
               <label for="title">Title</label>
               <input type="text" class="form-control">
             </div>
-
             <div class="form-group">
               <label for="category">Category</label>
               <select class="form-control">
@@ -265,16 +263,14 @@
                 <option value="">Health & Wellness</option>
               </select>
             </div>
-
             <div class="form-group">
               <label for="image">Upload Image</label>
               <div class="custom-file">
                 <input type="file" class="custom-file-input" id="image">
-                <label for="image" class="custom-file-label">Choose file</label>
+                <label for="image" class="custom-file-label">Choose File</label>
               </div>
-              <small class="form-text-white text-muted">Max Size 3mb</small>
+              <small class="form-text text-muted">Max Size 3mb</small>
             </div>
-
             <div class="form-group">
               <label for="body">Body</label>
               <textarea name="editor1" class="form-control"></textarea>
@@ -288,7 +284,7 @@
     </div>
   </div>
 
-  <!--  ADD CATEGORY MODAL -->
+  <!-- ADD CATEGORY MODAL -->
   <div class="modal fade" id="addCategoryModal">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -298,15 +294,12 @@
             <span>&times;</span>
           </button>
         </div>
-
         <div class="modal-body">
           <form>
             <div class="form-group">
               <label for="title">Title</label>
               <input type="text" class="form-control">
             </div>
-
-
           </form>
         </div>
         <div class="modal-footer">
@@ -316,7 +309,7 @@
     </div>
   </div>
 
-  <!--  ADD USER MODAL -->
+  <!-- ADD USER MODAL -->
   <div class="modal fade" id="addUserModal">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -326,29 +319,24 @@
             <span>&times;</span>
           </button>
         </div>
-
         <div class="modal-body">
           <form>
             <div class="form-group">
               <label for="name">Name</label>
               <input type="text" class="form-control">
             </div>
-
             <div class="form-group">
               <label for="email">Email</label>
               <input type="email" class="form-control">
             </div>
-
             <div class="form-group">
               <label for="password">Password</label>
               <input type="password" class="form-control">
             </div>
-
             <div class="form-group">
               <label for="password2">Confirm Password</label>
               <input type="password" class="form-control">
             </div>
-
           </form>
         </div>
         <div class="modal-footer">
@@ -357,6 +345,7 @@
       </div>
     </div>
   </div>
+
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>

@@ -60,40 +60,37 @@
     </div>
   </nav>
 
-  <!--  HEADER -->
+  <!-- HEADER -->
   <header id="main-header" class="py-2 bg-primary text-white">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
           <h1>
-           Post One
-          </h1>
+            Post One</h1>
         </div>
       </div>
     </div>
   </header>
 
-  <!--  ACTIONS -->
+  <!-- ACTIONS -->
   <section id="actions" class="py-4 mb-4 bg-light">
     <div class="container">
       <div class="row">
-        <col-md-3>
-          <a href="#" class="btn btn-light btn-block">
-            <i class="fas fa-arrow-left"></i> Back to Dashboard
+        <div class="col-md-3">
+          <a href="index.html" class="btn btn-light btn-block">
+            <i class="fas fa-arrow-left"></i> Back To Dashboard
           </a>
-        </col-md-3>
-
-        <col-md-3>
-          <a href="#" class="btn btn-success btn-block">
+        </div>
+        <div class="col-md-3">
+          <a href="index.html" class="btn btn-success btn-block">
             <i class="fas fa-check"></i> Save Changes
           </a>
-        </col-md-3>
-
-        <col-md-3>
-          <a href="#" class="btn btn-danger btn-block">
+        </div>
+        <div class="col-md-3">
+          <a href="index.html" class="btn btn-danger btn-block">
             <i class="fas fa-trash"></i> Delete Post
           </a>
-        </col-md-3>
+        </div>
       </div>
     </div>
   </section>
@@ -107,14 +104,12 @@
             <div class="card-header">
               <h4>Edit Post</h4>
             </div>
-
             <div class="card-body">
               <form>
                 <div class="form-group">
                   <label for="title">Title</label>
                   <input type="text" class="form-control" value="Post One">
                 </div>
-
                 <div class="form-group">
                   <label for="category">Category</label>
                   <select class="form-control">
@@ -124,19 +119,17 @@
                     <option value="">Health & Wellness</option>
                   </select>
                 </div>
-
                 <div class="form-group">
                   <label for="image">Upload Image</label>
                   <div class="custom-file">
                     <input type="file" class="custom-file-input" id="image">
-                    <label for="image" class="custom-file-label">Choose file</label>
+                    <label for="image" class="custom-file-label">Choose File</label>
                   </div>
-                  <small class="form-text-white text-muted">Max Size 3mb</small>
+                  <small class="form-text text-muted">Max Size 3mb</small>
                 </div>
-
                 <div class="form-group">
                   <label for="body">Body</label>
-                  <textarea name="editor1" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus est totam illo cupiditate explicabo obcaecati odit labore dolorum quibusdam quia rem tempore cumque et sit aspernatur vel minus, optio sapiente aut nesciunt quam magnam consequatur exercitationem voluptatum nisi! Quis similique ratione deleniti suscipit, doloremque possimus laudantium officiis maxime reprehenderit? Officiis!</textarea>
+                  <textarea name="editor1" class="form-control">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat culpa nam cumque voluptatum. Possimus recusandae porro architecto officiis illo dignissimos ratione aut officia reprehenderit! Iure cum numquam fugit doloremque quis ullam illo odit, odio voluptates non quisquam laboriosam consectetur quasi perspiciatis! Sapiente minus aperiam nobis molestias autem ut praesentium laudantium?</textarea>
                 </div>
               </form>
             </div>
@@ -152,7 +145,8 @@
       <div class="row">
         <div class="col">
           <p class="lead text-center">
-            Copyright &copy; <span id="year"></span>
+            Copyright &copy;
+            <span id="year"></span>
             Blogen
           </p>
         </div>
@@ -160,9 +154,10 @@
     </div>
   </footer>
 
-  <!--  MODALS -->
 
-  <!--  ADD POST MODAL -->
+  <!-- MODALS -->
+
+  <!-- ADD POST MODAL -->
   <div class="modal fade" id="addPostModal">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -172,14 +167,12 @@
             <span>&times;</span>
           </button>
         </div>
-
         <div class="modal-body">
           <form>
             <div class="form-group">
               <label for="title">Title</label>
               <input type="text" class="form-control">
             </div>
-
             <div class="form-group">
               <label for="category">Category</label>
               <select class="form-control">
@@ -189,16 +182,14 @@
                 <option value="">Health & Wellness</option>
               </select>
             </div>
-
             <div class="form-group">
               <label for="image">Upload Image</label>
               <div class="custom-file">
                 <input type="file" class="custom-file-input" id="image">
-                <label for="image" class="custom-file-label">Choose file</label>
+                <label for="image" class="custom-file-label">Choose File</label>
               </div>
-              <small class="form-text-white text-muted">Max Size 3mb</small>
+              <small class="form-text text-muted">Max Size 3mb</small>
             </div>
-
             <div class="form-group">
               <label for="body">Body</label>
               <textarea name="editor1" class="form-control"></textarea>
@@ -212,7 +203,7 @@
     </div>
   </div>
 
-  <!--  ADD CATEGORY MODAL -->
+  <!-- ADD CATEGORY MODAL -->
   <div class="modal fade" id="addCategoryModal">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -222,15 +213,12 @@
             <span>&times;</span>
           </button>
         </div>
-
         <div class="modal-body">
           <form>
             <div class="form-group">
               <label for="title">Title</label>
               <input type="text" class="form-control">
             </div>
-
-
           </form>
         </div>
         <div class="modal-footer">
@@ -240,7 +228,7 @@
     </div>
   </div>
 
-  <!--  ADD USER MODAL -->
+  <!-- ADD USER MODAL -->
   <div class="modal fade" id="addUserModal">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -250,29 +238,24 @@
             <span>&times;</span>
           </button>
         </div>
-
         <div class="modal-body">
           <form>
             <div class="form-group">
               <label for="name">Name</label>
               <input type="text" class="form-control">
             </div>
-
             <div class="form-group">
               <label for="email">Email</label>
               <input type="email" class="form-control">
             </div>
-
             <div class="form-group">
               <label for="password">Password</label>
               <input type="password" class="form-control">
             </div>
-
             <div class="form-group">
               <label for="password2">Confirm Password</label>
               <input type="password" class="form-control">
             </div>
-
           </form>
         </div>
         <div class="modal-footer">
@@ -281,6 +264,7 @@
       </div>
     </div>
   </div>
+
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
